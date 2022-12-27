@@ -44,7 +44,7 @@ public class FirstTest {
 
         driver.findElement(inputPhoneNumber).sendKeys(testPhone);
 
-        //clear the precompiled field
+        //clear the precomplited field
         driver.findElement(inputAmount).sendKeys(Keys.chord(Keys.CONTROL, "a", Keys.DELETE));
 
         driver.findElement(inputAmount).sendKeys(testAmount);
